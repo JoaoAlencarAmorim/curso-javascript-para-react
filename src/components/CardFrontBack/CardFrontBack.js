@@ -5,12 +5,12 @@ import CardGame from "../CardGame";
 function CardFrontBack() {
     return /*html*/`
         <article class="card-front-back">
-            <article class="front">
+            <div class="card -front">
                 ${CardGame()}
-            </article>
-            <article class="back">
+            </div>
+            <div class="card -back">
                 ${CardGame("javascript", "Logo do javascript pixelado")}
-            </article>
+            </div>
         </article>
     `
 }
