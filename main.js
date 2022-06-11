@@ -7,8 +7,10 @@ import ScoreBoard from "./src/objects/ScoreBoard";
 
 const $root = document.querySelector('#root');
 
-$root.insertAdjacentHTML('beforeend', `
-  ${ScoreBoard()}
-  ${BoardGame(6)}
-`);
-console.log($htmlCardGame);
+$root.insertAdjacentHTML(
+  'beforeend', 
+  `
+    ${ScoreBoard()}
+    ${BoardGame(6)}
+  `
+);

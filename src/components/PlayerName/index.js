@@ -1,11 +1,11 @@
 import "./style.css";
 
-function ScoreName(name){
+function PlayerName(name){
     return /*html*/`
-        <p class="score-name">
+        <p class="player-name">
             ${name}
         </p>
     `;
 }
 
-export default ScoreName;
+export default PlayerName;

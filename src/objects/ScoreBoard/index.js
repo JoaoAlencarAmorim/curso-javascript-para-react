@@ -1,12 +1,12 @@
 import "./style.css"
 
-import ScoreName from "../../components/ScoreName";
+import PlayerName from "../../components/PlayerName";
 
 function ScoreBoard() {
     return /*html*/`
         <article class="score-board">
-            ${ScoreName('Player1')}
-            ${ScoreName('Player2')}
+            ${PlayerName('Player1')}
+            ${PlayerName('Player2')}
         </article>
     `;
 }
