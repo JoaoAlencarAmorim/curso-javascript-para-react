@@ -4,11 +4,12 @@ import CardFrontBack from "../../components/CardFrontBack/CardFrontBack";
 
 function BoardGame(amountCards) {
     const $htmlCardGame = CardFrontBack();
-    const $htmlBoardGame = $htmlCardGame.repeat(amountCards);
+    const $htmlContent = $htmlCardGame.repeat(amountCards);
+    
     return /*html*/`
-       <article class="board-game">
-            ${$htmlBoardGame}
-       </article>
+       <section class="board-game">
+            ${$htmlContent}
+       </section>
     `;
 }
 
