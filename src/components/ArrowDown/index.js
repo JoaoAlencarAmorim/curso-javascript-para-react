@@ -1,9 +1,9 @@
 import "./style.css"
 
-function ArrowDown(){
+function ArrowDown(currentPlayer = 1){
     return /*html*/`
     <div class="arrow-down">
-        <img class="player1" src="./src/images/IconArrowDown.png"/>
+        <img data-currentPlayer="${currentPlayer}" class="player1" src="./src/images/IconArrowDown.png"/>
     </div>
     `
 }

@@ -4,7 +4,7 @@ import CardGame from "../CardGame";
 
 var numCards = 0
 var cardsPlayer1 = []
-function CardFrontBack() {
+function CardFrontBack(icon, altIcon) {
     window.cardFrontBack = {}
     var cardsPlayer2 = {}
     
@@ -40,7 +40,7 @@ function CardFrontBack() {
                 ${CardGame()}
             </div>
             <div class="card -back">
-                ${CardGame("javascript", "Logo do javascript pixelado")}
+                ${CardGame(icon, altIcon)}
             </div>
         </article>
     `
